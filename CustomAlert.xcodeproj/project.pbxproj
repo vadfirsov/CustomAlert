@@ -13,6 +13,8 @@
 		DA8A3FBB2330CE690050FEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8A3FBA2330CE690050FEBA /* Assets.xcassets */; };
 		DA8A3FBE2330CE690050FEBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8A3FBC2330CE690050FEBA /* LaunchScreen.storyboard */; };
 		DA8A3FC12330CE690050FEBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8A3FC02330CE690050FEBA /* main.m */; };
+		DA8A3FCA2330D06C0050FEBA /* CustomAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8A3FC82330D06C0050FEBA /* CustomAlertVC.m */; };
+		DA8A3FCB2330D06C0050FEBA /* CustomAlertVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8A3FC92330D06C0050FEBA /* CustomAlertVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		DA8A3FBD2330CE690050FEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA8A3FBF2330CE690050FEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA8A3FC02330CE690050FEBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA8A3FC72330D06C0050FEBA /* CustomAlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAlertVC.h; sourceTree = "<group>"; };
+		DA8A3FC82330D06C0050FEBA /* CustomAlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertVC.m; sourceTree = "<group>"; };
+		DA8A3FC92330D06C0050FEBA /* CustomAlertVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAlertVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				DA8A3FB22330CE680050FEBA /* AppDelegate.m */,
 				DA8A3FB42330CE680050FEBA /* ViewController.h */,
 				DA8A3FB52330CE680050FEBA /* ViewController.m */,
+				DA8A3FC72330D06C0050FEBA /* CustomAlertVC.h */,
+				DA8A3FC82330D06C0050FEBA /* CustomAlertVC.m */,
+				DA8A3FC92330D06C0050FEBA /* CustomAlertVC.xib */,
 				DA8A3FB72330CE680050FEBA /* Main.storyboard */,
 				DA8A3FBA2330CE690050FEBA /* Assets.xcassets */,
 				DA8A3FBC2330CE690050FEBA /* LaunchScreen.storyboard */,
@@ -130,6 +138,7 @@
 			files = (
 				DA8A3FBE2330CE690050FEBA /* LaunchScreen.storyboard in Resources */,
 				DA8A3FBB2330CE690050FEBA /* Assets.xcassets in Resources */,
+				DA8A3FCB2330D06C0050FEBA /* CustomAlertVC.xib in Resources */,
 				DA8A3FB92330CE680050FEBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +152,7 @@
 			files = (
 				DA8A3FB62330CE680050FEBA /* ViewController.m in Sources */,
 				DA8A3FC12330CE690050FEBA /* main.m in Sources */,
+				DA8A3FCA2330D06C0050FEBA /* CustomAlertVC.m in Sources */,
 				DA8A3FB32330CE680050FEBA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
