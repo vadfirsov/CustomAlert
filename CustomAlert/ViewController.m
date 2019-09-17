@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "CustomAlertVC.h"
 
 @interface ViewController ()
+
 @property (weak, nonatomic) IBOutlet UIButton *showAlertButton;
+@property (strong, nonatomic) CustomAlertVC *alert;
 
 @end
 
@@ -21,6 +24,11 @@
 }
 
 - (IBAction)showAlert:(UIButton *)sender {
+    _alert = [[CustomAlertVC alloc] init];
+    _alert.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+    
+    [self presentViewController:_alert animated:true completion:nil];
+    
 }
 
 
